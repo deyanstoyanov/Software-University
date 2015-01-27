@@ -9,13 +9,11 @@ public class _03_PointsInsideFigure {
 		double x = scan.nextDouble();
 		double y = scan.nextDouble();
 		
-		if (x >= 12.5 && x <= 22.5 && y >= 6 && y <= 8.5) {
-			System.out.println("Inside");
-		}
-		else if (x >= 12.5 && x <= 17.5 && y >= 8.5 && y <= 13.5) {
-			System.out.println("Inside");
-		}
-		else if (x >= 20 && x <= 22.5 && y >= 8.5 && y <= 13.5) {
+		boolean firstFugure = (x >= 12.5 && x <= 22.5 && y >= 6 && y <= 8.5);
+		boolean secondFigure = (x >= 12.5 && x <= 17.5 && y >= 8.5 && y <= 13.5);
+		boolean thirdFigure = (x >= 20 && x <= 22.5 && y >= 8.5 && y <= 13.5);
+		
+		if (firstFugure || secondFigure || thirdFigure) {
 			System.out.println("Inside");
 		}
 		else {

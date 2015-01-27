@@ -9,14 +9,17 @@ public class _02_TriangleArea {
 		for (int i = 0; i < firstCordinates.length; i++) {
 			firstCordinates[i] = scan.nextInt();
 		}
+		
 		int[] secondCordinates = new int[2];
 		for (int i = 0; i < secondCordinates.length; i++) {
 			secondCordinates[i] = scan.nextInt();
 		}
+		
 		int[] thirdCordinates = new int[2];
 		for (int i = 0; i < thirdCordinates.length; i++) {
 			thirdCordinates[i] = scan.nextInt();
 		}
+		
 		int Ax = firstCordinates[0];
 		int Ay = firstCordinates[1];
 		int Bx = secondCordinates[0];

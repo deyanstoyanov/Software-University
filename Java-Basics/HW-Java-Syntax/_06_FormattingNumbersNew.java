@@ -8,6 +8,7 @@ public class _06_FormattingNumbersNew {
 		int a = scan.nextInt();
 		double b = scan.nextDouble();
 		double c = scan.nextDouble();
+		
 		String bin = Integer.toBinaryString(a);
 		int outBin = Integer.parseInt(bin);
 		System.out.format("|" + "%1$-10X", a);

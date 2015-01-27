@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+
 public class _09_PointInsideTheHouse {
 
 	public static void main(String[] args) {
